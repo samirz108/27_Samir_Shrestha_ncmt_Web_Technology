@@ -2,7 +2,7 @@
  Assignment 1
 
 Date: Dec 20th 2025
- Name:Samir Shrestha
+Name:Samir Shrestha
  Program: BIT 3rd I
  Roll no:26                 
 
@@ -10,17 +10,19 @@ Date: Dec 20th 2025
 
 *Group A: Short Questions (2 Marks)*
 
-1. Define the term ”Protocol” in the context of the Internet?
- Ans: In the internet's context, a protocol is a standardized set of rules, like a common language, that governs how devices format, send, receive, and interpret data, ensuring seamless communication across diverse networks, with core examples being TCP and IP that manage reliable data delivery and addressing.
+*1. Define the term ”Protocol” in the context of the Internet?*
 
-2. What is the primary difference between a Web Browser and a Search Engine?
+  Ans: In the internet's context, a protocol is a standardized set of rules, like a common language, that governs how devices format, send, receive, and interpret data, ensuring seamless communication across diverse networks, with core examples being TCP and IP that manage reliable data delivery and addressing.
+
+2. *What is the primary difference between a Web Browser and a Search Engine?*
+
  Ans: Web Browser (The Tool): This essentially refers to the software that has been installed in your device (such as Chrome or Firefox) that helps in the retrieval of web pages from the server.
     Search Engine (The Service): A web service such as Google or Bing that is browsed by a user through a web browser in order to look for related information or websites by key words. 
 
-3. Define the World Wide Web (WWW)?
+3. *Define the World Wide Web (WWW)?*
  Ans: The WWW is a global system for interlinked hypertext documents and multimedia files on the web or web pages that are connected by hyperlinks.
 
-4.Distinguish between a static web page and a dynamic web page?
+*4.Distinguish between a static web page and a dynamic web page?*
  
 
 Group B: Long Questions (4 Marks)
