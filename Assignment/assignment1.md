@@ -13,7 +13,7 @@ Roll no:26
 
    ## CHAPTER 1: AN OVERVIEW OF THE INTERNET AND THE WEB
 
-*Group A: Short Questions (2 Marks)*
+## Group A: Short Questions (2 Marks)
 
 1. Define the term ”Protocol” in the context of the Internet?
 
@@ -105,19 +105,35 @@ This method makes the Internet fast, efficient, and reliable, even if some route
 
 
 
-Group C: Scenario-Based Questions (5 Marks)
+## Group C: Scenrio-Based Questions (5 Marks)
 
 
 
-
-8. A startup company wants to host a website that displays the same information to all visitors and requires very low  maintenance costs. However, they are being advised to use a dynamic website. As a consultant, would you agree? Justify your answer.
-
+ 8. A startup company wants to host a website that displays the same information to all visitors and requires very low maintenance costs. However, they are being advised to use a dynamic website. As a consultant, would you agree? Justify your answer.
  Ans:
-     
-9. A user types www.google.com into their browser, but the browser displays a ”Server Not Found” error, even though the internet connection is active. However, accessing the site via 142.250.190.46 works. Diagnose the problem and explain the underlying technology that failed.  
+ As a consultant, I would not agree with using a dynamic website in this situation. Since the startup’s website displays the same information to all visitors and needs very low maintenance, a static website is more suitable.
+ A static website consists of fixed web pages written in HTML and CSS. These pages do not change unless manually updated. Static websites are cheaper to host, faster to load, and more secure because they do not use databases or server-side scripting. They also require minimal technical maintenance, which is ideal for a startup with limited resources.
+ Dynamic websites are useful when content needs to change frequently, such as user logins, online forms, or real-time data updates. However, they require databases, backend programming, higher hosting costs, and regular maintenance.
+ Therefore, for a startup that wants to show the same content to all users at a low cost, a static website is the best choice, and using a dynamic website would be unnecessary.
 
-Ans:
 
-10. A multinational corporation wants to share sensitive inventory data with specific suppliers but does not want this information available to the general public. Explain which network type (Intranet, Extranet, or Internet) they should implement and why.
 
-Ans:
+ 9. A user types www.google.com into their browser, but the browser displays a “Server Not Found” error, even though the internet connection is active. However, accessing the site via 142.250.190.46 works. Diagnose the problem and explain the underlying technology that failed.
+ Ans:
+ The problem in this situation is a failure of the DNS (Domain Name System).
+ When a user types www.google.com, the browser does not understand domain names directly. It first contacts a DNS server to translate the domain name into an IP address (for example, 142.250.190.46). This process is called DNS resolution.
+ Since the website opens successfully when the IP address is entered directly, it proves that:
+ The internet connection is working
+ The web server is reachable
+ However, because the domain name does not work, the DNS server is unable to resolve the domain name. This could be due to incorrect DNS settings, a DNS server outage, or corrupted DNS cache.
+ Thus, the underlying technology that failed is the Domain Name System (DNS), which is responsible for converting human-readable domain names into machine-readable IP addresses.
+
+
+
+ 10. A multinational corporation wants to share sensitive inventory data with specific suppliers but does not want this information available to the general public. Explain which network type (Intranet, Extranet, or Internet) they should implement and why.
+ Ans:
+ The company should implement an Extranet.
+ An Extranet is a private network that allows controlled access to external users, such as suppliers, vendors, or business partners. It uses secure authentication methods like usernames, passwords, or VPNs to ensure that only authorized users can access the information.
+ An Intranet is used only by internal employees within the organization and cannot be accessed by external suppliers. The Internet, on the other hand, is public and accessible to everyone, which would make sensitive data insecure.
+ Since the company wants to share sensitive inventory data only with specific suppliers and not with the general public, an Extranet provides the best balance between security and controlled access.
+ Therefore, an Extranet is the most suitable network type for this requirement.
